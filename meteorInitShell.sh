@@ -4,7 +4,7 @@
 # email:395460642@qq.com
 #========================
 # this shell is used to initialize a meteor machine
-# only test in ubuntu14.0.4LTS
+# only test in ubuntu14.04LTS
 # To run this shell, first make sure you have permission.\
 #	or you can run this shell by using 'sudo sh ./meteorinitShell.sh'
 # Also, it may take some time. If you have problems, you can send a email for me,tks~

@@ -37,6 +37,7 @@ apt-get install ethereum
 cd ~/
 echo clone go-ethereum from https://github.com/ethereum/go-ethereum 
 git clone https://github.com/ethereum/go-ethereum
+sudo apt-get install -y build-essential libgmp3-dev golang
 #build geth
 echo build it ...
 cd go-ethereum

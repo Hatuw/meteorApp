@@ -20,7 +20,7 @@ cd ~/Downloads
 tar -C /usr/local -xzf go1.7.1.linux-amd64.tar.gz
 #set PATH
 echo set the GOPATH...
-usernaeme=$(cat /etc/hostname)
+username=$(cat /etc/hostname)
 echo export GOPATH=/home/$username/godev:/home/$username/eclipsegodev > /etc/profile.d/golang_profile.sh
 echo export GOROOT=/usr/local/go >> /etc/profile.d/golang_profile.sh
 echo export PATH=\$GOROOT/bin:\$PATH >> /etc/profile.d/golang_profile.sh
